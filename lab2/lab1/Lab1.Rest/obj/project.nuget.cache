@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "sHIAYxMx1fxRswdDcKLTqoUzdhhqTA7mjXJHtxLEkEM1k6VZIrccUpvy+F6STyGny3RT3u3y90FFSzXXmBnXdw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kbarbare\\IoT23_26748-1\\lab2\\lab1\\Lab1.Rest\\Lab1.Rest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kbarbare\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.3\\microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
+    "C:\\Users\\kbarbare\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\kbarbare\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\kbarbare\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\kbarbare\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\kbarbare\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\kbarbare\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

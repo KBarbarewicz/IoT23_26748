@@ -1,0 +1,14 @@
+C:\Users\kbarbare\IoT23_26748-1\lab2\lab1\publish\Lab1.Rest.exe
+C:\Users\kbarbare\IoT23_26748-1\lab2\lab1\publish\appsettings.Development.json
+C:\Users\kbarbare\IoT23_26748-1\lab2\lab1\publish\appsettings.json
+C:\Users\kbarbare\IoT23_26748-1\lab2\lab1\publish\Lab1.Rest.dll
+C:\Users\kbarbare\IoT23_26748-1\lab2\lab1\publish\Lab1.Rest.deps.json
+C:\Users\kbarbare\IoT23_26748-1\lab2\lab1\publish\Lab1.Rest.runtimeconfig.json
+C:\Users\kbarbare\IoT23_26748-1\lab2\lab1\publish\Lab1.Rest.pdb
+C:\Users\kbarbare\IoT23_26748-1\lab2\lab1\publish\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\kbarbare\IoT23_26748-1\lab2\lab1\publish\Microsoft.OpenApi.dll
+C:\Users\kbarbare\IoT23_26748-1\lab2\lab1\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\kbarbare\IoT23_26748-1\lab2\lab1\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\kbarbare\IoT23_26748-1\lab2\lab1\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\kbarbare\IoT23_26748-1\lab2\lab1\publish\Lab1.DTO.dll
+C:\Users\kbarbare\IoT23_26748-1\lab2\lab1\publish\Lab1.DTO.pdb
