@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kbarbare\\IoT23_26748-1\\lab2\\lab1\\Lab1.Rest\\Lab1.Rest.csproj": {}
+    "c:\\Users\\kbarbare\\IoT23_26748-1\\lab2\\lab1\\Lab1.Rest\\Lab1.Rest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kbarbare\\IoT23_26748-1\\lab2\\lab1\\Lab1.DTO\\Lab1.DTO.csproj": {
+    "c:\\Users\\kbarbare\\IoT23_26748-1\\lab2\\lab1\\Lab1.DTO\\Lab1.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kbarbare\\IoT23_26748-1\\lab2\\lab1\\Lab1.DTO\\Lab1.DTO.csproj",
+        "projectUniqueName": "c:\\Users\\kbarbare\\IoT23_26748-1\\lab2\\lab1\\Lab1.DTO\\Lab1.DTO.csproj",
         "projectName": "Lab1.DTO",
-        "projectPath": "C:\\Users\\kbarbare\\IoT23_26748-1\\lab2\\lab1\\Lab1.DTO\\Lab1.DTO.csproj",
+        "projectPath": "c:\\Users\\kbarbare\\IoT23_26748-1\\lab2\\lab1\\Lab1.DTO\\Lab1.DTO.csproj",
         "packagesPath": "C:\\Users\\kbarbare\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kbarbare\\IoT23_26748-1\\lab2\\lab1\\Lab1.DTO\\obj\\",
+        "outputPath": "c:\\Users\\kbarbare\\IoT23_26748-1\\lab2\\lab1\\Lab1.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kbarbare\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\kbarbare\\IoT23_26748-1\\lab2\\lab1\\Lab1.Rest\\Lab1.Rest.csproj": {
+    "c:\\Users\\kbarbare\\IoT23_26748-1\\lab2\\lab1\\Lab1.Rest\\Lab1.Rest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kbarbare\\IoT23_26748-1\\lab2\\lab1\\Lab1.Rest\\Lab1.Rest.csproj",
+        "projectUniqueName": "c:\\Users\\kbarbare\\IoT23_26748-1\\lab2\\lab1\\Lab1.Rest\\Lab1.Rest.csproj",
         "projectName": "Lab1.Rest",
-        "projectPath": "C:\\Users\\kbarbare\\IoT23_26748-1\\lab2\\lab1\\Lab1.Rest\\Lab1.Rest.csproj",
+        "projectPath": "c:\\Users\\kbarbare\\IoT23_26748-1\\lab2\\lab1\\Lab1.Rest\\Lab1.Rest.csproj",
         "packagesPath": "C:\\Users\\kbarbare\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kbarbare\\IoT23_26748-1\\lab2\\lab1\\Lab1.Rest\\obj\\",
+        "outputPath": "c:\\Users\\kbarbare\\IoT23_26748-1\\lab2\\lab1\\Lab1.Rest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kbarbare\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -76,15 +76,14 @@
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\kbarbare\\IoT23_26748-1\\lab2\\lab1\\Lab1.DTO\\Lab1.DTO.csproj": {
-                "projectPath": "C:\\Users\\kbarbare\\IoT23_26748-1\\lab2\\lab1\\Lab1.DTO\\Lab1.DTO.csproj"
+              "c:\\Users\\kbarbare\\IoT23_26748-1\\lab2\\lab1\\Lab1.DTO\\Lab1.DTO.csproj": {
+                "projectPath": "c:\\Users\\kbarbare\\IoT23_26748-1\\lab2\\lab1\\Lab1.DTO\\Lab1.DTO.csproj"
               }
             }
           }
@@ -102,6 +101,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
