@@ -19,7 +19,7 @@ namespace CdvAzure.Functions
         }
 
         [Function("PeopleFN")]
-        public HttpResponseData Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequestData req)
+        public HttpResponseData Run([HttpTrigger(AuthorizationLevel.Function, "get", "post", "put", "delete")] HttpRequestData req)
         {
             _logger.LogInformation("C# HTTP trigger function processed a request.");
 
@@ -28,24 +28,39 @@ namespace CdvAzure.Functions
             switch (req.Method)
             {
                 case "POST":
-                    StreamReader reader = new StreamReader(req.Body, System.Text.Encoding.UTF8);
-                    var json = reader.ReadToEnd();
-                    var person = JsonSerializer.Deserialize<Person>(json);
-                    var res = peopleService.Add(person.FirstName, person.LastName);
-                    response.WriteAsJsonAsync(res);
-                    break;
+                    {
+                        StreamReader reader = new StreamReader(req.Body, System.Text.Encoding.UTF8);
+                        var json = reader.ReadToEnd();
+                        var person = JsonSerializer.Deserialize<Person>(json);
+                        var res = peopleService.Add(person.FirstName, person.LastName);
+                        response.WriteAsJsonAsync(res);
+                        break;
+                    }
                 case "PUT":
-                
-                    break;
+                    {
+                        StreamReader reader = new StreamReader(req.Body, System.Text.Encoding.UTF8);
+                        var json = reader.ReadToEnd();
+                        var person = JsonSerializer.Deserialize<Person>(json);
+                        var res = peopleService.Update(person.Id, person.FirstName, person.LastName);
+                        response.WriteAsJsonAsync(res);
+                        break;
+                    }
                 case "GET":
-                    var people = peopleService.Get();
-                    response.WriteAsJsonAsync(people);
-                    break;
+                    {
+                        var people = peopleService.Get();
+                        response.WriteAsJsonAsync(people);
+                        break;
+                    }
                 case "DELETE":
-                    break;
+                    {
+                        StreamReader reader = new StreamReader(req.Body, System.Text.Encoding.UTF8);
+                        var json = reader.ReadToEnd();
+                        var person = JsonSerializer.Deserialize<Person>(json);
+                        peopleService.Delete(person.Id);
+                        response.WriteAsJsonAsync(true);
+                        break;
+                    }
             }
-
-
             return response;
         }
     }
