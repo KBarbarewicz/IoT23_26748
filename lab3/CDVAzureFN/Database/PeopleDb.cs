@@ -1,6 +1,8 @@
+using Lab1.Rest.Database.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Lab3.Rest.Database
+namespace Lab1.Rest.Database
 {
     public class PeopleDb : DbContext
     {
@@ -9,5 +11,18 @@ namespace Lab3.Rest.Database
             
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            ConfigurePersonEntity(modelBuilder.Entity<PersonEntity>());
+        }
+
+        private void ConfigurePersonEntity(EntityTypeBuilder<PersonEntity> entity)
+        {
+            entity.ToTable("Person");
+            entity.Property(p=>p.FirstName).IsRequired().HasMaxLength(200);
+            entity.Property(p=>p.LastName).IsRequired().HasMaxLength(200);
+        }
+
+        public DbSet<PersonEntity> People{get; set;}
     }
 }

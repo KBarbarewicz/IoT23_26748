@@ -1,4 +1,4 @@
-namespace Lab3.Rest.Database.Entities
+namespace Lab1.Rest.Database.Entities
 {
     
     public class PersonEntity
