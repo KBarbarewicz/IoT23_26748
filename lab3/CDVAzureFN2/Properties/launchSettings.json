@@ -1,8 +1,8 @@
 {
   "profiles": {
-    "lab3": {
+    "CDVAzureFN": {
       "commandName": "Project",
-      "commandLineArgs": "--port 7169",
+      "commandLineArgs": "--port 7177",
       "launchBrowser": false
     }
   }
