@@ -10,7 +10,7 @@ var host = new HostBuilder()
     .ConfigureFunctionsWorkerDefaults()
     .ConfigureServices(services => {
         services.AddDbContext<PeopleDb>(options=>{
-            var connectionString = "Server=tcp:plserwer2.database.windows.net,1433;Initial Catalog=iotdb;Persist Security Info=False;User ID=aburdelski;Password={Adibek1111};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            var connectionString = "Server=tcp:cdvdbserver1.database.windows.net,1433;Initial Catalog=cdvdbserver;Persist Security Info=False;User ID=kacper;Password=MySuperPassword12#;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
             options.UseSqlServer(connectionString);
         });
         services.AddApplicationInsightsTelemetryWorkerService();
